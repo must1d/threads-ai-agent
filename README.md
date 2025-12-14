@@ -33,10 +33,11 @@ pdm run playwright install chromium
 pdm run threads-agent <username>
 ```
 
-### Scrape Threads Profile
-```bash
-pdm run scrape-threads <username>
-```
+The agent will:
+1. Analyze the user's Threads posts and replies
+2. Study their writing style, tone, and patterns
+3. Generate Thread suggestions mimicking their style
+4. Save output to `outputs/<username>_<timestamp>.md`
 
 ## Development
 
