@@ -1,0 +1,32 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PDM
+.pdm-python
+.pdm.toml
+pdm.lock
+
+# Screenshots
+screenshots/
+
+# Outputs
+outputs/
+
+# AWS credentials
+.aws/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
